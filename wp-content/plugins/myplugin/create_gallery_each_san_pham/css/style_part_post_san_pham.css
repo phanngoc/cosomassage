@@ -1,0 +1,33 @@
+.show-galary,.group-gallery
+{
+    display: block;
+    width : 150px;
+    height : 150px;
+    float : left;
+    border : 1px solid #C6C6C6;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.show-galary img,.group-gallery img{
+    display:block;
+    width : 85px;
+    height : 85px;
+    margin-top:10px;
+}
+#id-galery{
+    height : auto;
+}
+#gallery{
+    display : block;
+    width : 100%;
+    height : auto;
+}
+.show-galary img,.show-galary button,.group-gallery img,.group-gallery button 
+{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.submit-create-gallery{
+    clear : both;
+}
